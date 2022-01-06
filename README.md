@@ -2,7 +2,7 @@
 
 The [Sonoff NSPanel](https://sonoff.tech/product/smart-wall-swtich/nspanel/) gets a lot of attention right now. This is a collection of snippets for configurations of [ESPHome](https://esphome.io). Feel free to use them, and let me know of other neat tricks ;)
 
-#Wifi indicator
+# Wifi indicator
 
 I have created 5 PNG imges representing the state of the signal. I am using the ESPHome component [Wifi signal](https://esphome.io/components/sensor/wifi_signal.html) to change the picture on the display according to the RSSI value:
 ![wLAN_0](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_0.png "wLAN_1") ![wLAN_1](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_1.png "wLAN_1") ![wLAN_2](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_2.png "wLAN_2") ![wLAN_3](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_3.png "wLAN_3") ![wLAN_4](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_4.png "wLAN_4") 
