@@ -2,12 +2,6 @@
 
 The [Sonoff NSPanel](https://sonoff.tech/product/smart-wall-swtich/nspanel/) gets a lot of attention right now. This is a collection of snippets for configurations of [ESPHome](https://esphome.io). Feel free to use them, and let me know of other neat tricks ;)
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 #Wifi indicator
 
 I have created 5 PNG imges representing the state of the signal. I am using the ESPHome component [Wifi signal](https://esphome.io/components/sensor/wifi_signal.html) to change the picture on the display according to the RSSI value:
@@ -19,6 +13,7 @@ Then I added the wlan_0 image on the Display. You will need the "objname" of thi
 After uploading the tft file to the display, you should see the wlan_0 picture.
 
 #### ESPHome configuration wifi indicator
+
     - platform: wifi_signal
       name: "$devicename WiFi Signal"
       id: wifi_rssi
