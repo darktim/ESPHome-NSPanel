@@ -11,7 +11,7 @@ The [Sonoff NSPanel](https://sonoff.tech/product/smart-wall-swtich/nspanel/) get
 #Wifi indicator
 
 I have created 5 PNG imges representing the state of the signal. I am using the ESPHome component [Wifi signal](https://esphome.io/components/sensor/wifi_signal.html) to change the picture on the display according to the RSSI value:
-![wLAN_0](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_0.png "wLAN_1") ![wLAN_1](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_0.png "wLAN_1") ![wLAN_2](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_2.png "wLAN_2") ![wLAN_3](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_3.png "wLAN_3") ![wLAN_4](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_4.png "wLAN_4") 
+![wLAN_0](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_0.png "wLAN_1") ![wLAN_1](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_1.png "wLAN_1") ![wLAN_2](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_2.png "wLAN_2") ![wLAN_3](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_3.png "wLAN_3") ![wLAN_4](https://github.com/darktim/ESPHome-NSPanel/blob/main/images/wlan_4.png "wLAN_4") 
 
 In the  [Nextion Editor](https://nextion.tech/nextion-editor/) (only available as Microsoft Software) I added these in the "Picture" menu. Please note the image IDs. In my case the image wlan_0 has got ID 1 and wlan_4 has got ID 5.
 Then I added the wlan_0 image on the Display. You will need the "objname" of this new object - I changed mine to the name "wlan"
